@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title of the document</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+</head>
+
+<body style="margin:0;display: flex" >
+	<div style="height: 100vh;background-color: black">
+		<div id="board" style="position: relative;background-color: white;height: 800px;width: 1200px;border:1px solid black;margin: auto"></div>
+	</div>
+	<div id="infos">
+		
+	</div>
+	<!--<script src="./socket.io/socket.io.js"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+	<script>
+//		var socket = io.connect('http://10.59.2.115:8080');
+var socket = io.connect('http://localhost:8080');
+	</script>
+</body>
+</html>
